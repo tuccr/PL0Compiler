@@ -1,11 +1,11 @@
-# Homework 4: PL/0 Compiler
+# PL/0 Compiler
 
 ## Description
 A brief overview of your virtual machine implementation, explaining its purpose and functionality.
 
 My PL/0 compiler program will take a text file, tokenize its content while checking for invalid characters, numbers, or identifiers, then check whether its grammar aligns
 with the EBNF grammar rules specified in the HW4 document. If my program determines its input file contents to be adhering to the grammar and symbol rules of PL/0, it will then
-generate code in the form of instructions to then output to an Executable Linkable File or ELF. The generated ELF is designed to be used with the vm created in HW1. Errors in the
+generate code in the form of instructions to then output to an Executable Linkable File or ELF. The generated ELF is designed to be used with the .vm file. Errors in the
 provided text in the input file are thrown if there is an error in the scanning OR parsing step. The compiler has no "else" statement functionality.
 
 ## Compilation Instructions
